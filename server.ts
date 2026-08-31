@@ -6,7 +6,7 @@ import * as XLSX from 'xlsx';
 export const DEFAULT_ONEDRIVE_URL = 'https://1drv.ms/x/c/81537c2af549ad15/IQDOikIEQSPyQpKWksPqxKl8AUeYCEYNGPdmo7e4gpI1y-Q?e=38Nq1F';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 
 app.use(express.json());
 
