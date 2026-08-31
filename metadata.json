@@ -1,0 +1,6 @@
+{
+  "name": "INSPIRE Award - Blockwise Pending School Dashboard",
+  "description": "Official dashboard for tracking and generating reports of block-wise pending schools under the INSPIRE Award scheme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
